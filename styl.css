@@ -1,0 +1,125 @@
+body {
+    font-family: "Playfair Display", serif;
+    font-family: "Playfair Display SC", serif;
+    background-color: #ffffff;
+    width: 100rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: #d8bc1b;
+    text-align: center;
+    letter-spacing: 0.5rem;
+    font-size: 4rem;
+}
+h2 {
+    color: #ffffff;
+    float: left;
+}
+h4 {
+    color: #ffffff;
+    font-size: 1rem;
+    margin: 1rem;
+}
+td {
+    width: 1.5rem;
+}
+form {
+    text-align: right;
+    margin-right: 2rem;
+}
+#weather {
+    margin: 1rem;
+    padding: 0rem;
+    background-color: #5373ca;
+    height: 28rem;
+    border-radius: 0.2rem;
+    -webkit-box-shadow: 10px 10px 42px -11px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 10px 10px 42px -11px rgba(66, 68, 90, 1);
+    box-shadow: 10px 10px 42px -11px rgba(66, 68, 90, 1);
+}
+
+#cityzone {
+    background-color: #3657b3;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 0rem;
+    margin-top: 0rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    height: 7rem;
+    border-radius: 0.2rem;
+}
+#value {
+    border: 0.1rem solid #355e8e;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    height: 15rem;
+}
+
+#weathervalue {
+    width: "200";
+    color: #ffffff;
+    display: flex;
+}
+#temperaturebox {
+    display: flex;
+    margin: 1rem;
+}
+#weatherbox {
+    margin: 0rem;
+}
+#valuebox {
+    display: flex;
+}
+.valuebox {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.name {
+    color: #000000;
+    font-size: 1rem;
+
+    margin: 0rem;
+}
+#temperature {
+    font-size: 4rem;
+    margin: 0.5rem;
+}
+.citybuttons {
+    text-align: center;
+    background-color: #3657b3;
+    border-radius: 0.2rem;
+    box-shadow: 10px 10px 42px -11px rgba(66, 68, 90, 1);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+}
+.button {
+    height: 4rem;
+    width: 15rem;
+    font-size: 2rem;
+    margin: auto;
+    background-color: rgb(87, 73, 124);
+    color: #ffffff;
+    border-radius: 0.2rem;
+    border-bottom: solid 0.1rem;
+    border: #d8bc1b;
+    box-shadow: 10px 10px 42px -11px rgb(0, 21, 255);
+}
+.button:hover {
+    background-color: rgb(249, 255, 255);
+    color: #0c0c0c;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover {
+    text-decoration: none;
+    color: #000000;
+}
